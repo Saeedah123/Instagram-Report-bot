@@ -34,9 +34,9 @@ def keep_alive():
 keep_alive()
 
 # Initialize the Telegram bot
-API_TOKEN = os.getenv("API_TOKEN")
-FORCE_JOIN_CHANNEL = os.getenv("FORCE_JOIN_CHANNEL")
-ADMIN_ID = os.getenv("ADMIN_ID")
+API_TOKEN = os.getenv("7959485500:AAEspSX_c8QZsy9SC88DDyaJHZeIlYYIPho")
+FORCE_JOIN_CHANNEL = os.getenv("outlawsbots")
+ADMIN_ID = os.getenv("6109365101")
 
 bot = telebot.TeleBot(API_TOKEN)
 
